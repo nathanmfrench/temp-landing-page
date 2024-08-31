@@ -16,10 +16,8 @@ Dark Mode:
 - Live Site URL: https://nuxt-saas-landing-page.vercel.app/
 
 ### Built with
-
-- Mobile-first workflow
-- [TailwindCSS](https://tailwindcss.com/) - Utility-first CSS classes
-- [Vue.js](https://vuejs.org/) - JS library
+- [TailwindCSS](https://tailwindcss.com/)
+- [Vue.js](https://vuejs.org/) 
 - [Nuxt 3](https://nuxt.com/) - Vue framework
 
 
@@ -28,14 +26,9 @@ Dark Mode:
 Make sure to install the dependencies:
 
 ```bash
-# yarn
-yarn install
-
 # npm
 npm install
 
-# pnpm
-pnpm install
 ```
 
 Start the development server on `http://localhost:3000`
@@ -44,6 +37,3 @@ Start the development server on `http://localhost:3000`
 npm run dev
 ```
 
-## Author
-
-- Dev.to - [@cn-2k](https://dev.to/cn-2k)

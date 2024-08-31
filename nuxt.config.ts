@@ -3,14 +3,14 @@ export default defineNuxtConfig({
   css: ["@/assets/css/base.css"],
   app: {
     head: {
-      title: "Nuxt 3 SaaS Starter",
+      title: "Voxium AI",
       htmlAttrs: {
         lang: "en",
       },
     },
   },
   site: {
-    url: "https://nuxt-saas-landing-page.vercel.app/",
+    url: "https://nuxt-saas-landing-page.vercel.app/", //change this soon to my real domain name
   },
   modules: [
     "@nuxtjs/tailwindcss",
@@ -28,6 +28,6 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: "",
     preference: "system",
-    fallback: "light",
+    fallback: "dark",
   },
 })

@@ -24,7 +24,7 @@ const toggleColorMode = () => {
   }
 }
 
-const setColorMode = (mode: "light" | "dark") => {
+const setColorMode = (mode: "dark" | "light") => {
   colorMode.value = mode
   colorMode.preference = mode
 }

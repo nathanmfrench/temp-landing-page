@@ -22,12 +22,6 @@
           <TranslateIcon />
         </Button>
 
-        <LinkButton
-          type="bg"
-          to="https://github.com/cn-2k/nuxt-saas-landing-page"
-        >
-          <GithubIcon />
-        </LinkButton>
       </div>
 
       <div class="flex lg:hidden">
@@ -92,31 +86,20 @@ const menu = [
     href: "/",
   },
   {
-    title: "About",
-    label: "About",
+    title: "About Us",
+    label: "About Us",
     href: "/about",
   },
   {
     title: "Download",
     label: "Download",
-    href: "#",
+    href: "/download",
   },
-  {
-    title: "Blog",
-    label: "Blog",
-    href: "#",
-  },
+
   {
     title: "Docs",
     label: "Docs",
-    href: "#",
-    isExternal: true,
-  },
-  {
-    title: "Certification",
-    label: "Certification",
-    href: "#",
-    isExternal: true,
+    href: "/docs",
   },
 ]
 

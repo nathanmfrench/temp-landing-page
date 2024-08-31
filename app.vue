@@ -6,15 +6,15 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title: "Nuxt 3 SaaS Starter",
-  ogTitle: "Nuxt 3 SaaS Starter",
-  description: "A modern, simple Nuxt 3 landing page for your next software/SaaS project!",
-  ogDescription: "A modern, simple Nuxt 3 landing page for your next software/SaaS project!",
+  title: "Voxium AI",
+  ogTitle: "Voxium AI",
+  description: "Revolutionizing digital accessibility",
+  ogDescription: "Revolutionizing digital accessibility",
 })
 
 defineOgImageComponent("Frame", {
   headline: false,
-  title: "Nuxt 3 SaaS Starter",
-  description: "A modern, simple Nuxt 3 landing page for your next software/SaaS project!",
+  title: "Voxium AI",
+  description: "Revolutionizing digital accessibility",
 })
 </script>
