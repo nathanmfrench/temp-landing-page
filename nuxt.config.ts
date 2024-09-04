@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    url: "https://nuxt-saas-landing-page.vercel.app/", //change this soon to my real domain name
+    url: "https://nuxt-saas-landing-page.vercel.app/", //change this soon to my real domain name heeeeee
   },
   modules: [
     "@nuxtjs/tailwindcss",
@@ -27,7 +27,7 @@ export default defineNuxtConfig({
   },
   colorMode: {
     classSuffix: "",
-    preference: "system",
-    fallback: "dark",
+    preference: "dark", // Set this to "dark" to default to dark mode
+    fallback: "dark",  // Also set fallback to "dark" to ensure dark mode is used if preference is not detected
   },
 })
