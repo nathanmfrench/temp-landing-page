@@ -27,8 +27,8 @@
         </div>
       </div>
       <div class="lg:ml-32 lg:block lg:w-10/12 w-full" aria-labelledby="demo-heading">
-        <div class="bg-gray-900 dark:bg-gray-900/70 h-[400px] rounded-lg border-gray-800 border w-full flex items-center justify-center" role="img" aria-label="AI-Powered Screen Reader Demo placeholder">
-          <p id="demo-heading" class="text-white text-xl">AI-Powered Screen Reader Demo</p>
+        <div class="bg-gray-900 dark:bg-gray-900/70 h-[400px] rounded-lg border-gray-800 border w-full flex items-center justify-center" role="img" aria-label="demo coming soon">
+          <p id="demo-heading" class="text-white text-xl">Demo Coming Soon...</p>
         </div>
         <p class="text-center mt-4">
           Empowering the visually impaired with <span class="font-bold text-green-400">intuitive digital interaction</span>

@@ -5,7 +5,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "generate": "NODE_OPTIONS='--trace-warnings' nuxt generate --debug",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
@@ -13,8 +13,12 @@
     "@vueuse/core": "^11.0.3",
     "@vueuse/math": "^11.0.3",
     "clsx": "^2.1.1",
-    "nuxt": "^3.11.2",
-    "nuxt-og-image": "^3.0.0-rc.53",
+    "estree-walker": "^3.0.3",
+    "google-auth-library": "^9.14.1",
+    "googleapis": "^144.0.0",
+    "nuxi": "^3.13.1",
+    "nuxt": "^3.13.1",
+    "nuxt-og-image": "^3.0.0-rc.66",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
   },
@@ -22,6 +26,6 @@
     "@nuxt/eslint": "^0.3.13",
     "@nuxtjs/color-mode": "^3.4.1",
     "@nuxtjs/tailwindcss": "^6.12.0",
-    "eslint": "^9.4.0"
+    "eslint": "^9.9.1"
   }
 }

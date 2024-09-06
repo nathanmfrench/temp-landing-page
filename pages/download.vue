@@ -12,11 +12,11 @@
               <ul class="mt-4 space-y-2" aria-label="Basic plan features">
                 <li class="flex items-center text-gray-800 dark:text-white">
                   <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                  Full web navigation features
+                  Full Voice Web Navigation
                 </li>
                 <li class="flex items-center text-gray-800 dark:text-white">
                   <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                  PDF form filling
+                  PDF Form Filling
                 </li>
               </ul>
             </div>
@@ -34,7 +34,7 @@
                 </li>
                 <li class="flex items-center text-gray-800 dark:text-white">
                   <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                  Additional feature 2
+                  Desktop Voice Navigation
                 </li>
               </ul>
             </div>
