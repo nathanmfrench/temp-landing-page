@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    url: "https://nuxt-saas-landing-page.vercel.app/", //change this soon to my real domain name heeeeee
+    url: "https://https://voxium.tech/", //change this soon to my real domain name heeeeee
   },
   modules: [
     "@nuxtjs/tailwindcss",
