@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    url: "https://https://voxium.tech/", //change this soon to my real domain name heeeeee
+    url: "https://voxium.tech",  // Corrected URL
   },
   modules: [
     "@nuxtjs/tailwindcss",
