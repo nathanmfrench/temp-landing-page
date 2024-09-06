@@ -1,4 +1,4 @@
-name: Build and Deploy to Hostinger
+name: Deploy to Hostinger
 
 on:
   push:
@@ -22,11 +22,14 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Push to Hostinger
-        uses: s0/git-publish-subdir-action@develop
-        env:
-          REPO: self
-          BRANCH: hostinger-deploy
-          FOLDER: .output # or 'dist' if you're using an older Nuxt version
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MESSAGE: "Deploy: ({sha}) {msg}"
+      - name: Generate static site
+        run: npm run generate
+
+      - name: Deploy to Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: 	ftp://voxium.tech
+          username: u537664485
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: .output/public/
+          server-dir: /public_html/
