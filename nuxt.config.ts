@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   css: ["@/assets/css/base.css"],
+  
   app: {
     head: {
       title: "Voxium AI",
@@ -9,15 +10,18 @@ export default defineNuxtConfig({
       },
     },
   },
+  
   site: {
-    url: "https://voxium.tech",  // Corrected URL
+    url: "https://voxium.tech",
   },
+  
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxt/eslint",
     "@nuxtjs/color-mode",
     "nuxt-og-image",
   ],
+  
   eslint: {
     config: {
       stylistic: {
@@ -25,9 +29,28 @@ export default defineNuxtConfig({
       },
     },
   },
+  
   colorMode: {
     classSuffix: "",
-    preference: "dark", // Set this to "dark" to default to dark mode
-    fallback: "dark",  // Also set fallback to "dark" to ensure dark mode is used if preference is not detected
+    preference: "dark",
+    fallback: "dark",
   },
+
+  // Configuration for static site generation
+  ssr: true,
+
+  // Nitro configuration for static site generation
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ['/'],
+    },
+    static: true,
+  },
+
+  // Optimize for production
+  build: {
+    transpile: ['vue'],
+  },
+
 })
