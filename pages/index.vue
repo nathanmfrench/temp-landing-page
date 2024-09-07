@@ -27,8 +27,11 @@
         </div>
       </div>
       <div class="lg:ml-32 lg:block lg:w-10/12 w-full" aria-labelledby="demo-heading">
-        <div class="bg-gray-900 dark:bg-gray-900/70 h-[400px] rounded-lg border-gray-800 border w-full flex items-center justify-center" role="img" aria-label="demo coming soon">
-          <p id="demo-heading" class="text-white text-xl">Demo Coming Soon...</p>
+        <div class="bg-gray-900 dark:bg-gray-900/70 h-[400px] rounded-lg border-gray-800 border w-full flex items-center justify-center" role="region" aria-label="Product demo video">
+          <video controls class="w-full h-full object-contain">
+            <source src="assets/VoxiumDemo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
         <p class="text-center mt-4">
           Empowering the visually impaired with <span class="font-bold text-green-400">intuitive digital interaction</span>
