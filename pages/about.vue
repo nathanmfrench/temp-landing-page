@@ -1,5 +1,8 @@
 <template>
   <div class="container mx-auto px-4 py-16" role="main" aria-labelledby="about-us-heading">
+    <!-- Visually hidden main heading for screen readers -->
+    <h1 id="about-us-heading" class="sr-only">About Us</h1>
+    
     <!-- Project Info Section -->
     <div class="grid md:grid-cols-2 gap-8 mb-16" role="region" aria-label="Project Information">
       <div>
@@ -20,19 +23,19 @@
         </ul>
       </div>
     </div>
-    
+        
     <!-- Team Section -->
     <h2 id="team-heading" class="text-3xl font-bold text-center mb-8">Meet the Team</h2>
     <div class="flex justify-center items-center space-x-8" role="region" aria-labelledby="team-heading">
       <div class="w-full max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
         <div class="h-64 overflow-hidden">
-          <img class="w-full h-full object-cover object-center" src="assets/tryagain6.jpg" alt="Nathan French" aria-labelledby="team-member-name">
+          <img class="w-full h-full object-cover object-center" src="assets/tryagain6.jpg" alt="" aria-hidden="true">
         </div>
         <div class="text-gray-600 p-6">
-          <h3 id="team-member-name" class="text-xl font-semibold mb-2">Nathan French</h3>
-          <p class="text-gray-600" aria-labelledby="team-member-name">
+          <h3 id="nathan-french" class="text-xl font-semibold mb-2">Nathan French</h3>
+          <p class="text-gray-600" aria-labelledby="nathan-french">
             AI/Software Developer
-            <br>prev Math/CS/Finance @ Boston College 
+            <br>prev Math/CS/Finance @ Boston College
           </p>
         </div>
       </div>
@@ -49,4 +52,15 @@
 
 <style scoped>
 /* Add any component-specific styles here if needed */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
 </style>
